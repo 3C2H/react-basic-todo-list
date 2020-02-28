@@ -1,4 +1,5 @@
 import React from 'react'
+import CheckBox from './CheckBox'
 
 
 class TodoList extends React.Component {
@@ -6,7 +7,9 @@ class TodoList extends React.Component {
     return(
       <div>
         <div classname='TodoListContainer'>
-          I'm a todo list (or rather will be)
+          <CheckBox />
+          <CheckBox />
+          <CheckBox />
         </div>
       </div>
     )

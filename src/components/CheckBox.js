@@ -1,12 +1,13 @@
 import React from 'react'
+import '../style/checkBox.css'
 
 
 class CheckBox extends React.Component {
   render() {
     return(
-      <div>
+      <div className='checkBoxContainer'>
         <input type='checkbox' />
-        <p>thing to do (do not procrastinate !!)</p>
+        <p className='checkBoxText'>thing to do (do not procrastinate !!)</p>
       </div>
     )
   }

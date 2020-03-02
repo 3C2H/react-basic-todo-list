@@ -1,4 +1,6 @@
 .title {
   color: white;
   background-color: gray;
+  -webkit-box-shadow: inset 0px 0px 20px 15px rgba(0,0,0,0.8); 
+  box-shadow: inset 0px 0px 20px 15px rgba(0,0,0,0.8);
 }

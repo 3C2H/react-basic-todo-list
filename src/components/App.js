@@ -3,6 +3,7 @@ import '../style/App.css';
 import Footer from './Footer';
 import Header from './Header';
 import TodoList from './TodoList';
+import DateComponent from './DateComponent'
 
 
 class App extends React.Component {
@@ -10,6 +11,7 @@ class App extends React.Component {
     return(
       <div className='App'>
         <Header />
+        <DateComponent />
         <TodoList />
         <Footer />
       </div>

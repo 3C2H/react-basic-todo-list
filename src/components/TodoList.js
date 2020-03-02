@@ -7,11 +7,9 @@ class TodoList extends React.Component {
   render() {
     return(
       <div className='TodoListContainer'>
-        <div>
-          <CheckBox />
-          <CheckBox />
-          <CheckBox />
-        </div>
+        <CheckBox />
+        <CheckBox />
+        <CheckBox />
       </div>
     )
   }

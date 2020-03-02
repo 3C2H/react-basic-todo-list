@@ -6,8 +6,8 @@ class CheckBox extends React.Component {
   render() {
     return(
       <div className='checkBoxContainer'>
-        <p className='checkBoxText'>thing to do (do not procrastinate !!)</p>
         <input className='theCheckBox' type='checkbox' />
+        <p className='checkBoxText'>thing to do (do not procrastinate !!)</p>
       </div>
     )
   }

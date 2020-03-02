@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/dateComponent.css'
 
 
 class DateComponent extends React.Component {
@@ -19,8 +20,8 @@ class DateComponent extends React.Component {
     }
   
     return(
-			<div>
-				<h2>Good {timeOfDay} ! it's currently <br></br> {dateUi} {hours} : {minutes} </h2>
+			<div className='dateComponent'>
+				<h2>Good {timeOfDay} ! It's currently <br></br> {dateUi} {hours} : {minutes} </h2>
 			</div>
     )
   }

@@ -1,20 +1,22 @@
 .checkBoxContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-color: rgba(100, 148, 237, 0.5);
-  margin-top: 30px;
-  -webkit-box-shadow: inset 0px 0px 20px 15px rgba(0,0,0,0.8); 
-  box-shadow: inset 0px 0px 20px 15px rgba(0,0,0,0.8);
+  margin: 20px;
+  border: 1px solid;
+  -webkit-box-shadow: inset 0px 0px 20px 15px rgba(0, 118, 215, 0.995); 
+  box-shadow: inset 0px 0px 20px 15px rgba(0, 118, 215, 0.995);
   /* -webkit-box-shadow: 0px 15px 20px 15px rgba(0,0,0,0.8); 
   box-shadow: 0px 15px 20px 15px rgba(0,0,0,0.8); */
 }
 
 .checkBoxText {
   color: rgb(255, 205, 55);
-  margin-top: 25px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: inset 0px 0px 20px 15px rgba(255, 205, 55, 0.3); 
-  box-shadow: inset 0px 0px 20px 15px rgb(255, 205, 55, 0.3);
+  /* -webkit-box-shadow: inset 0px 0px 20px 15px rgba(255, 205, 55, 0.3); 
+  box-shadow: inset 0px 0px 20px 15px rgb(255, 205, 55, 0.3); */
 }
 
 .theCheckBox {
-  margin-top: 10px;
+  margin-right:  25px;
 }

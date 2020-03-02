@@ -1,0 +1,6 @@
+@supports (-webkit-text-stroke: 1px white) {
+  .dateComponent {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+  }
+}

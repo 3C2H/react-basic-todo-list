@@ -7,7 +7,7 @@ class CheckBox extends React.Component {
     return(
       <div className='checkBoxContainer'>
         <input className='theCheckBox' type='checkbox' />
-        <p className='checkBoxText'>thing to do (do not procrastinate !!)</p>
+        <p className='checkBoxText'> {this.props.todoText} </p>
       </div>
     )
   }

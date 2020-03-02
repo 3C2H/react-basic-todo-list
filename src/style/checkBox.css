@@ -5,18 +5,23 @@
   background-color: rgba(100, 148, 237, 0.5);
   margin: 20px;
   border: 1px solid;
+  width: 80%;
   -webkit-box-shadow: inset 0px 0px 20px 15px rgba(0, 118, 215, 0.995); 
   box-shadow: inset 0px 0px 20px 15px rgba(0, 118, 215, 0.995);
   /* -webkit-box-shadow: 0px 15px 20px 15px rgba(0,0,0,0.8); 
   box-shadow: 0px 15px 20px 15px rgba(0,0,0,0.8); */
 }
 
-.checkBoxText {
-  color: rgb(255, 205, 55);
-  /* -webkit-box-shadow: inset 0px 0px 20px 15px rgba(255, 205, 55, 0.3); 
-  box-shadow: inset 0px 0px 20px 15px rgb(255, 205, 55, 0.3); */
+@supports (-webkit-text-stroke: 0.5px black) {
+  .checkBoxText {
+    -webkit-text-stroke: 0.5px black;
+    -webkit-text-fill-color: rgb(255, 191, 0);
+    font-size: 25px;
+  }
 }
 
 .theCheckBox {
+  margin-left: 25px;
   margin-right:  25px;
+  zoom: 1.55;
 }

@@ -21,7 +21,7 @@ class DateComponent extends React.Component {
   
     return(
 			<div className='dateComponent'>
-				<h2>Good {timeOfDay} ! It's currently <br></br> {dateUi} {hours} : {minutes} </h2>
+				<h2>Good {timeOfDay} ! It's currently <br></br> {dateUi} <br></br> {hours} : {minutes} </h2>
 			</div>
     )
   }

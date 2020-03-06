@@ -6,7 +6,7 @@ import listOfThings from '../listOfThings'
 
 class TodoList extends React.Component {
   render() {
-    const TodoListComponent = listOfThings.map( item => <CheckBox key={item.id} task={item.task}/> )
+    const TodoListComponent = listOfThings.map( item => <CheckBox key={item.id} task={item.task} completed={item.completed}/> )
     console.log(TodoListComponent)
     return(
       <div className='TodoListContainer'>

@@ -7,26 +7,26 @@ module.exports = [
   {
     id:2,
     task: "Grocery shopping",
-    completed : false
+    completed: false
   },
   {
     id:3,
     task: "Practice React",
-    completed : false
+    completed: false
   },
   {
     id:4,
     task: "Watch a movie",
-    completed : false
+    completed: false
   },
   {
     id:5,
     task: "Practice Js",
-    completed : false
+    completed: false
   },
   {
     id:6,
     task: "Laundry ironing",
-    completed : false
+    completed: false
   }
 ]

@@ -8,12 +8,28 @@ class TodoList extends React.Component {
   constructor() {
     super()
     this.state = { todos: listOfThings }
+    this.handleChange = this.handleChange.bind(this)
   }
 
-  // handleChange={this.handleChange}
+  handleChange(id) {
+    this.setState(prevState => {
+      const updatedTodos = prevState.todos.map(todo => {
+        if (todo.id === id) {
+          todo.completed = !todo.completed
+        }
+        return todo
+      })
+      return {todos : updatedTodos}
+    })
+  }
+
   render() {
-    const TodoListComponent = this.state.todos.map( item => <CheckBox key={item.id} id={item.id} task={item.task} completed={item.completed}  /> )
-    console.log(TodoListComponent)
+    const TodoListComponent = this.state.todos.map( item => <CheckBox key={item.id}
+    id={item.id}
+    task={item.task}
+    completed={item.completed}
+    handleChange={this.handleChange} /> )
+    // console.log(TodoListComponent)
     
     return(
       <div className='TodoListContainer'>

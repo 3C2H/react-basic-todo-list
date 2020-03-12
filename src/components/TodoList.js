@@ -11,15 +11,17 @@ class TodoList extends React.Component {
     this.handleChange = this.handleChange.bind(this)
   }
 
+  //  Method to change completed state
   handleChange(id) {
     this.setState(prevState => {
+      // mapping previous array into a new one and changing 'completed' state for corresponding id
       const updatedTodos = prevState.todos.map(todo => {
         if (todo.id === id) {
           todo.completed = !todo.completed
         }
-        return todo
+        return todo // return the todo in any case
       })
-      return {todos : updatedTodos}
+      return {todos : updatedTodos} // return upd. array
     })
   }
 

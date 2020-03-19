@@ -35,9 +35,6 @@ class TodoList extends React.Component {
     return(
       <div className='TodoListContainer'>
         {TodoListComponent}
-        {/* <CheckBox todoText='first task'/>
-        <CheckBox todoText='second task'/>
-        <CheckBox todoText='third task'/> */}
       </div>
     )
   }

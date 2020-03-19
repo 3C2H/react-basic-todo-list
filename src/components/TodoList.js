@@ -31,8 +31,7 @@ class TodoList extends React.Component {
     task={item.task}
     completed={item.completed}
     handleChange={this.handleChange} /> )
-    // console.log(TodoListComponent)
-    
+
     return(
       <div className='TodoListContainer'>
         {TodoListComponent}
